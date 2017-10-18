@@ -10,8 +10,7 @@ go_import_path: github.com/sunyuan3/just_for_test
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y -qq autoconf automake
-  - git clone https://github.com/sunyuan3/just_for_test.git ${GOPATH}/src/github.com/sunyuan3/just_for_test
-  
+
 install:
   - cd ${TRAVIS_BUILD_DIR}
   - echo "hello yile"
