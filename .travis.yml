@@ -19,3 +19,4 @@ script:
   - cd ${TRAVIS_BUILD_DIR} && echo "goodbye yile"
   - make check
   - make unit-test
+  - ./make.sh
