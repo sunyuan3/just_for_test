@@ -21,4 +21,4 @@ script:
   - make unit-test
   - ./make.sh
   - docker build -t test:1 . 
-  - docker run -ti test:1 bash -C "cd /go/src/github.com/sunyuan3/just_for_test && make check && make unit-test"
+  - docker run -ti test:1 bash -c "cd /go/src/github.com/sunyuan3/just_for_test && make check && make unit-test"
