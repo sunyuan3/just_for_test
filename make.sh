@@ -5,4 +5,4 @@ date
 free
 df
 cat /proc/cpuinfo
-echo "new1"
+echo "new2"
